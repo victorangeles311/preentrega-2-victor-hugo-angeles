@@ -1,0 +1,49 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos de Body*/
+body {
+    background: #03001a;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+/*Estilos del Header*/
+header {
+    background-color: black;
+    padding: 2rem 5rem 1.5rem 5rem;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+header .logo img {
+    height: 3.8rem;
+}
+
+
+/*Estilos del Main*/
+main.pagina-inicio {
+    height: 100vh;
+    padding: 4rem 5rem 1.5rem 5rem;
+    background-image: url("./img/background-syntes-inicio.png");
+    background-size: cover;
+    background-position: center;
+}
+main.pagina-librerias {
+    padding: 4rem 5rem 1.5rem 5rem;
+    text-align: center;
+}
+
+
+/* Estilos del Footer */
+footer {
+    padding: 3rem 5rem 3rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
